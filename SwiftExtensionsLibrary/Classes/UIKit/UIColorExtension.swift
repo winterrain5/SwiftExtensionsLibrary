@@ -26,31 +26,6 @@ public extension UIColor {
         self.init(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: alpha)
     }
     
-    // MARK: 1.2、十六进制字符串设置颜色
-    /// 十六进制字符串设置颜色
-    /// - Parameters:
-    ///   - hex: 十六进制字符串
-    ///   - alpha: 透明度
-    convenience init?(hexString: String, alpha: CGFloat = 1.0) {
-        let color = Self.hexStringToColorRGB(hexString: hexString)
-        guard let r = color.r, let g = color.g, let b = color.b else {
-            #if DEBUG
-            assert(false, "不是十六进制值")
-            #endif
-            return nil
-        }
-        self.init(r: r, g: g, b: b, alpha: alpha)
-    }
-    
-    // MARK: 1.3、十六进制 Int 设置颜色
-    /// 十六进制 Int 设置颜色
-    /// - Parameters:
-    ///   - hexInt: 十六进制 Int 值
-    ///   - alpha:  透明度
-    convenience init(hexInt: Int, alpha: CGFloat = 1.0) {
-        let color = Self.hexIntToColorRGB(hexInt: hexInt)
-        self.init(r: color.r, g: color.g, b: color.b, alpha: alpha)
-    }
 }
 
 // MARK: - 二、使用方法设置颜色

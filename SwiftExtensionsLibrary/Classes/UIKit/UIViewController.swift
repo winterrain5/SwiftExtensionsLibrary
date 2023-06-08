@@ -68,3 +68,38 @@ public extension ExtensionBase where Base: UIViewController {
     
  
 }
+
+extension UIViewController {
+    @discardableResult
+    func showAlertController(title: String?,
+                             message: String?,
+                             buttonTitles: [String]? = nil,
+                             highlightedButtonIndex: Int? = nil,
+                             preferredStyle:UIAlertController.Style = .alert,
+                             completion: ((Int) -> Void)? = nil) -> UIAlertController {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: preferredStyle)
+        var allButtons = buttonTitles ?? [String]()
+        if allButtons.count == 0 {
+            allButtons.append("OK")
+        }
+
+        for index in 0..<allButtons.count {
+            let buttonTitle = allButtons[index]
+
+            // Check which button to highlight
+            if let highlightedButtonIndex = highlightedButtonIndex, index == highlightedButtonIndex {
+                alertController.addAction(image: nil, title: buttonTitle, color: .blue, style: .default, isEnabled: true) { (action) in
+                    completion?(index)
+                }
+            }else {
+                alertController.addAction(image: nil, title: buttonTitle, color: UIColor.gray, style: .default, isEnabled: true) { (action) in
+                    completion?(index)
+                }
+            }
+        }
+        alertController.setTitle(font: UIFont.boldSystemFont(ofSize: 14), color: .black)
+        alertController.setMessage(font: UIFont.systemFont(ofSize: 14), color: .lightGray)
+        present(alertController, animated: true, completion: nil)
+        return alertController
+    }
+}

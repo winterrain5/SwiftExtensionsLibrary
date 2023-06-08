@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         print(UIDevice.sk.currentDeviceName)
         
         print(UIViewController.sk.getTopVC())
-        
+     
+        UIColor.init(hexString: "333333")
     }
 
     override func didReceiveMemoryWarning() {

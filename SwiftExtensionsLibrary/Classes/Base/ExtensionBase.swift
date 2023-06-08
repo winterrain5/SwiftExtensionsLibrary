@@ -2,7 +2,7 @@
 //  ExtensionBase.swift
 //  SwiftExtensionsLibrary_Example
 //
-//  Created by chengquan zhou on 2023/6/2.
+//  Created by Derrick on 2023/6/2.
 //  Copyright © 2023 CocoaPods. All rights reserved.
 //
 
@@ -18,13 +18,16 @@ public struct ExtensionBase<Base> {
 public protocol ExtensionCompatible {}
 
 public extension ExtensionCompatible {
-    static var se: ExtensionBase<Self>.Type {
+    static var sk: ExtensionBase<Self>.Type {
         get { ExtensionBase<Self>.self }
         set {}
     }
     
-    var se: ExtensionBase<Self> {
+    var sk: ExtensionBase<Self> {
         get { ExtensionBase(self) }
         set {}
     }
 }
+
+
+extension UIView: ExtensionCompatible {}

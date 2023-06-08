@@ -2,7 +2,7 @@
 //  CGFloatExtension.swift
 //  SwiftExtensionsLibrary_Example
 //
-//  Created by chengquan zhou on 2023/6/2.
+//  Created by Derrick on 2023/6/2.
 //  Copyright © 2023 CocoaPods. All rights reserved.
 //
 
@@ -29,11 +29,11 @@ public extension ExtensionBase where Base == CGFloat {
     
     // MARK: 1.5、转 String
     /// 转 String
-    var string: String { return String(self.base.se.double) }
+    var string: String { return String(self.base.sk.double) }
 
     // MARK: 1.6、转 NSNumber
     /// 转 NSNumber
-    var number: NSNumber { return NSNumber(value: self.base.se.double) }
+    var number: NSNumber { return NSNumber(value: self.base.sk.double) }
     
     // MARK: 1.7、转 Double
     /// 转 Double

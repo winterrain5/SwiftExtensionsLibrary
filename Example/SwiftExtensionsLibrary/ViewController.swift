@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         testBoolToInt()
+        testDateTimestamp()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,7 +28,19 @@ class ViewController: UIViewController {
 // Foundation
 extension ViewController {
     func testBoolToInt() {
-        print("test bool to int: \(false.se.toInt)")
+        print("test bool to int: \(false.sk.toInt)")
+    }
+    func testDateTimestamp() {
+        print("second timestamp: \(Date.sk.secondStamp)")
+        print("play time style: \(Date.sk.getFormatPlayTime(seconds: 123431,type: .hour))")
+    }
+    func testDictionary() {
+        let dict:[String : Any] = ["name":"张三", "age": 18]
+        
+        print("has key:\(dict.has("name"))")
+        
+        let jsonStr = "{\"id\":\"849743\",\"status\":\"6\",\"remark\":\"\",\"service_name\":\"Wellness Tuina 保健\"}"
+      
     }
 }
 

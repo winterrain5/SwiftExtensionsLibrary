@@ -60,9 +60,9 @@
 /* Begin PBXFileReference section */
 		04AEE9756E35E06AC0A914C8EBC7AE67 /* Pods-SwiftExtensionsLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftExtensionsLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		082D388E49D188FD8EAF19E74FC5FE64 /* SwiftExtensionsLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftExtensionsLibrary.release.xcconfig; sourceTree = "<group>"; };
-		0D7B9A902DEA28EF96C5DF714EA7BD8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0D7B9A902DEA28EF96C5DF714EA7BD8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		0DCDDBE895A3182683D4BF22C0377115 /* UIViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
-		125C69B3545AB40285CA3E02DD314E9D /* SwiftExtensionsLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SwiftExtensionsLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		125C69B3545AB40285CA3E02DD314E9D /* SwiftExtensionsLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SwiftExtensionsLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13B3DB506074DCF6671A29668DD24663 /* Pods-SwiftExtensionsLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftExtensionsLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		1479ECF796C1F436FA21963A09AA809C /* FileManagerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
 		15DEACBA5BA8029EE3F6F4E51B50853F /* SwiftExtensionsLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftExtensionsLibrary-umbrella.h"; sourceTree = "<group>"; };
@@ -70,13 +70,13 @@
 		1A15472ADB3219E11A89E9CCA8FE3629 /* SwiftExtensionsLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftExtensionsLibrary-dummy.m"; sourceTree = "<group>"; };
 		1D06CEA3935119F932CB154AB9EC1B75 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		20A7D2981139A5AF1B928BFB55A2430A /* CGFloatExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CGFloatExtension.swift; sourceTree = "<group>"; };
-		23EC35E8792CBFE412AA79182AA1ECC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		23EC35E8792CBFE412AA79182AA1ECC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2507C96DEC859B2241B185204CC2CEE0 /* Pods-SwiftExtensionsLibrary_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftExtensionsLibrary_Example-Info.plist"; sourceTree = "<group>"; };
 		299F1CF8747C879E9A523484F029D0EA /* SwiftExtensionsLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftExtensionsLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		2C9FEE18DEF2F26F89185900208FB620 /* Pods-SwiftExtensionsLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftExtensionsLibrary_Tests"; path = Pods_SwiftExtensionsLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D0BE9EA3F3AEA595F067BD7A0E38A40 /* DateExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		2E8D3E302156EC15D5F94D321C343E85 /* SwiftExtensionsLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftExtensionsLibrary-prefix.pch"; sourceTree = "<group>"; };
-		30AAD048FDF53B5C547A3A1AD708580A /* Pods_SwiftExtensionsLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftExtensionsLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AAD048FDF53B5C547A3A1AD708580A /* Pods-SwiftExtensionsLibrary_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SwiftExtensionsLibrary_Example"; path = Pods_SwiftExtensionsLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3156C30F5B2CA378D6CBDD13BC0E051F /* UIDeviceExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
 		3F31B946199730494093134D587D904F /* UITextFieldExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		4C7E7580C18B22C9C52D546EE26730D0 /* UIButtonExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		5C7D005FEDF99C7A23C9C0C865BDE30F /* Pods-SwiftExtensionsLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftExtensionsLibrary_Example.modulemap"; sourceTree = "<group>"; };
 		6428432D8C02EA06405100D0C7754EF5 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		674B5685888C145C176D7EBF8933C803 /* Pods-SwiftExtensionsLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftExtensionsLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6F76BBCD2EA5C846A6C6ED6C51FC288B /* SwiftExtensionsLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftExtensionsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F76BBCD2EA5C846A6C6ED6C51FC288B /* SwiftExtensionsLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftExtensionsLibrary; path = SwiftExtensionsLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EB16B074A9B3418598D1F6334A98D4 /* Pods-SwiftExtensionsLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftExtensionsLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		799CAA81F702E63510F09128C903C014 /* UIFontExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 		7A6A3C0158D5C2E0AF10217DB9C29BF4 /* Pods-SwiftExtensionsLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftExtensionsLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8B08FD8E6B27F6561590F3A23669AAE8 /* Pods-SwiftExtensionsLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftExtensionsLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		991392663C0441D6A052D101E6FF51D6 /* UIImageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A47C46895EA3525D26318E3568C6E25B /* Pods-SwiftExtensionsLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftExtensionsLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		BA549F58872ACBEC59913C12B5B8732E /* UIViewExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		BE8B73AFBEC4E3737E4EFAD28FF1C6B4 /* DictionaryExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
@@ -145,9 +145,9 @@
 		37685B0251C6042F1B5E69769FA4232F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30AAD048FDF53B5C547A3A1AD708580A /* Pods_SwiftExtensionsLibrary_Example.framework */,
+				30AAD048FDF53B5C547A3A1AD708580A /* Pods-SwiftExtensionsLibrary_Example */,
 				2C9FEE18DEF2F26F89185900208FB620 /* Pods-SwiftExtensionsLibrary_Tests */,
-				6F76BBCD2EA5C846A6C6ED6C51FC288B /* SwiftExtensionsLibrary.framework */,
+				6F76BBCD2EA5C846A6C6ED6C51FC288B /* SwiftExtensionsLibrary */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 			);
 			name = "Pods-SwiftExtensionsLibrary_Example";
 			productName = Pods_SwiftExtensionsLibrary_Example;
-			productReference = 30AAD048FDF53B5C547A3A1AD708580A /* Pods_SwiftExtensionsLibrary_Example.framework */;
+			productReference = 30AAD048FDF53B5C547A3A1AD708580A /* Pods-SwiftExtensionsLibrary_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		77896C538075B0CB9AF7051A891FA39F /* SwiftExtensionsLibrary */ = {
@@ -386,7 +386,7 @@
 			);
 			name = SwiftExtensionsLibrary;
 			productName = SwiftExtensionsLibrary;
-			productReference = 6F76BBCD2EA5C846A6C6ED6C51FC288B /* SwiftExtensionsLibrary.framework */;
+			productReference = 6F76BBCD2EA5C846A6C6ED6C51FC288B /* SwiftExtensionsLibrary */;
 			productType = "com.apple.product-type.framework";
 		};
 		E1B1B6F11C30966ABE4DE5DF68BFF8F4 /* Pods-SwiftExtensionsLibrary_Tests */ = {
@@ -542,7 +542,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftExtensionsLibrary/SwiftExtensionsLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftExtensionsLibrary/SwiftExtensionsLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftExtensionsLibrary/SwiftExtensionsLibrary.modulemap";
 				PRODUCT_MODULE_NAME = SwiftExtensionsLibrary;
@@ -574,7 +574,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SwiftExtensionsLibrary/SwiftExtensionsLibrary-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SwiftExtensionsLibrary/SwiftExtensionsLibrary-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftExtensionsLibrary/SwiftExtensionsLibrary.modulemap";
 				PRODUCT_MODULE_NAME = SwiftExtensionsLibrary;
@@ -605,7 +605,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftExtensionsLibrary_Example/Pods-SwiftExtensionsLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftExtensionsLibrary_Example/Pods-SwiftExtensionsLibrary_Example.modulemap";
@@ -745,7 +745,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -767,7 +768,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-SwiftExtensionsLibrary_Example/Pods-SwiftExtensionsLibrary_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SwiftExtensionsLibrary_Example/Pods-SwiftExtensionsLibrary_Example.modulemap";

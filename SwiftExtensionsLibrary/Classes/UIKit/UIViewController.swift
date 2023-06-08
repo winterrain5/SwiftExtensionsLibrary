@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension ExtensionBase where Base: UIViewController {
+public extension ExtensionBase where Base: UIViewController {
     // MARK: - 查找顶层控制器、
     // 获取顶层控制器 根据window
     static func getTopVC() -> UIViewController? {

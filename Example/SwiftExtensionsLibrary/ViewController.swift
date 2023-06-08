@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         view.sk.addShadow(shadowColor: .yellow, shadowOffset: CGSize(width: 10, height: 5), shadowOpacity: 1)
         
         print(UIDevice.sk.currentDeviceName)
+        
+        print(UIViewController.sk.getTopVC())
+        
     }
 
     override func didReceiveMemoryWarning() {

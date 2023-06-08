@@ -573,7 +573,7 @@ public extension ExtensionBase where Base: UIView {
 }
 
 // MARK:-Nibloadable
-extension ExtensionBase where Base: UIView {
+public extension ExtensionBase where Base: UIView {
     static var NibName: String {
         return String(self.className)
     }

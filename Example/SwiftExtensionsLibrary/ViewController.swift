@@ -17,7 +17,10 @@ class ViewController: UIViewController {
         
         let view = UIView().frame(CGRect(x: 100, y: 100, width: 100, height: 100)).backgroundColor(.blue)
         self.view.addSubview(view)
-        view.sk.addBorder(borderWidth: 2, borderColor: .red)
+//        view.sk.addBorder(borderWidth: 2, borderColor: .red)
+        view.sk.addShadow(shadowColor: .yellow, shadowOffset: CGSize(width: 10, height: 5), shadowOpacity: 1)
+        
+        print(UIDevice.sk.currentDeviceName)
     }
 
     override func didReceiveMemoryWarning() {

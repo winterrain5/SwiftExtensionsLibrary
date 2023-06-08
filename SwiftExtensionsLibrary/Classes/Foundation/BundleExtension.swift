@@ -7,7 +7,6 @@
 //
 
 import Foundation
-extension Bundle: ExtensionCompatible {}
 
 public enum BundleType {
     // 自己module下的bundle文件

@@ -25,7 +25,6 @@ import Foundation
  case bankers = 3 是在四舍五入的基础上，加上末尾数为5时，变成偶数的规则
  }
  */
-extension NSDecimalNumberHandler: ExtensionCompatible {}
 
 /// 计算的类型
 public enum DecimalNumberHandlerType: String {

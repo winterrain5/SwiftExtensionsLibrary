@@ -6,7 +6,6 @@
 //
 
 import Foundation
-extension UserDefaults: ExtensionCompatible {}
 
 public extension ExtensionBase where Base: UserDefaults {
     @discardableResult

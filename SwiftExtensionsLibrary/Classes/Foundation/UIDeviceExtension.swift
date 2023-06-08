@@ -10,8 +10,6 @@ import Foundation
 import CoreTelephony
 import AudioToolbox
 
-extension UIDevice: ExtensionCompatible {}
-
 // MARK: - 一、基本的扩展
 public extension ExtensionBase where Base: UIDevice {
     

@@ -43,7 +43,6 @@ public enum SanboxPath {
     case Tmp
 }
 
-extension FileManager: ExtensionCompatible {}
 
 public extension ExtensionBase where Base: FileManager {
     /// 获取Home的完整路径名

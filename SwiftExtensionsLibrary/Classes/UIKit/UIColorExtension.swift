@@ -6,7 +6,6 @@
 //
 
 import Foundation
-extension UIColor: ExtensionCompatible {}
 
 public extension ExtensionBase where Base == UIColor {
     

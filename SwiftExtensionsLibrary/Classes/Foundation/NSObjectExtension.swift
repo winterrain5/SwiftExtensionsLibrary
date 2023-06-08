@@ -7,8 +7,6 @@
 
 import Foundation
 
-extension NSObject: ExtensionCompatible {}
-
 public extension ExtensionBase where Base: NSObject {
     
     var className: String {

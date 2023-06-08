@@ -6,7 +6,6 @@
 //
 
 import Foundation
-extension UIFont: ExtensionCompatible {}
 // MARK: - 二、PingFangSC-字体使用
 fileprivate enum UIFontWeight: String {
     /// 常规

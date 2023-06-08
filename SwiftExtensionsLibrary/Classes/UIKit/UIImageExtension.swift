@@ -10,7 +10,6 @@ import AVFoundation
 import Dispatch
 import Photos
 
-extension UIImage: ExtensionCompatible {}
 // MARK: - 一、基本的扩展
 public extension ExtensionBase where Base: UIImage {
     // MARK: 1.1、设置图片的圆角

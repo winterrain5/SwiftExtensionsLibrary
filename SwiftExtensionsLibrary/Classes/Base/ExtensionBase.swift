@@ -29,5 +29,3 @@ public extension ExtensionCompatible {
     }
 }
 
-
-extension UIView: ExtensionCompatible {}

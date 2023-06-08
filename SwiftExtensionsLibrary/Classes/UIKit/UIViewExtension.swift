@@ -581,3 +581,118 @@ extension ExtensionBase where Base: UIView {
         return Bundle.main.loadNibNamed("\(self)", owner: nil, options: nil)?.last as! Self
     }
 }
+
+
+// MARK: - 六、自定义链式编程
+public extension UIView {
+    // MARK: 6.1、设置 tag 值
+    /// 设置 tag 值
+    /// - Parameter tag: 值
+    /// - Returns: 返回自身
+    @discardableResult
+    func tag(_ tag: Int) -> Self {
+        self.tag = tag
+        return self
+    }
+    
+    // MARK: 6.2、设置圆角
+    /// 设置圆角
+    /// - Parameter cornerRadius: 圆角
+    /// - Returns: 返回自身
+    @discardableResult
+    func corner(_ cornerRadius: CGFloat) -> Self {
+        layer.cornerRadius = cornerRadius
+        layer.masksToBounds = true
+        return self
+    }
+    
+    // MARK: 6.3、图片的模式
+    /// 图片的模式
+    /// - Parameter mode: 模式
+    /// - Returns: 返回图片的模式
+    @discardableResult
+    func contentMode(_ mode: UIView.ContentMode) -> Self {
+        contentMode = mode
+        return self
+    }
+    
+    // MARK: 6.4、设置背景色
+    /// 设置背景色
+    /// - Parameter color: 颜色
+    /// - Returns: 返回自身
+    @discardableResult
+    func backgroundColor(_ color: UIColor) -> Self {
+        backgroundColor = color
+        return self
+    }
+    
+    // MARK: 6.5、设置十六进制颜色
+    /// 设置十六进制颜色
+    /// - Parameter hex: 十六进制颜色
+    /// - Returns: 返回自身
+    @discardableResult
+    func backgroundColor(_ hex: String) -> Self {
+        backgroundColor = UIColor.hexStringColor(hexString: hex)
+        return self
+    }
+    
+    // MARK: 6.6、设置 frame
+    /// 设置 frame
+    /// - Parameter frame: frame
+    /// - Returns: 返回自身
+    @discardableResult
+    func frame(_ frame: CGRect) -> Self {
+        self.frame = frame
+        return self
+    }
+    
+    // MARK: 6.7、被添加到某个视图上
+    /// 被添加到某个视图上
+    /// - Parameter superView: 父视图
+    /// - Returns: 返回自身
+    @discardableResult
+    func addTo(_ superView: UIView) -> Self {
+        superView.addSubview(self)
+        return self
+    }
+    
+    // MARK: 6.8、设置是否支持触摸
+    /// 设置是否支持触摸
+    /// - Parameter isUserInteractionEnabled: 是否支持触摸
+    /// - Returns: 返回自身
+    @discardableResult
+    func isUserInteractionEnabled(_ isUserInteractionEnabled: Bool) -> Self {
+        self.isUserInteractionEnabled = isUserInteractionEnabled
+        return self
+    }
+    
+    // MARK: 6.9、设置是否隐藏
+    /// 设置是否隐藏
+    /// - Parameter isHidden: 是否隐藏
+    /// - Returns: 返回自身
+    @discardableResult
+    func isHidden(_ isHidden: Bool) -> Self {
+        self.isHidden = isHidden
+        return self
+    }
+    
+    // MARK: 6.10、设置透明度
+    /// 设置透明度
+    /// - Parameter alpha: 透明度
+    /// - Returns: 返回自身
+    @discardableResult
+    func alpha(_ alpha: CGFloat) -> Self {
+        self.alpha = alpha
+        return self
+    }
+    
+    // MARK: 6.11、设置tintColor
+    /// 设置tintColor
+    /// - Parameter tintColor: tintColor description
+    /// - Returns: 返回自身
+    @discardableResult
+    func tintColor(_ tintColor: UIColor) -> Self {
+        self.tintColor = tintColor
+        return self
+    }
+}

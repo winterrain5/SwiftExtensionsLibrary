@@ -69,7 +69,7 @@ public extension ExtensionBase where Base: UIViewController {
  
 }
 
-extension UIViewController {
+public extension UIViewController {
     @discardableResult
     func showAlertController(title: String?,
                              message: String?,
